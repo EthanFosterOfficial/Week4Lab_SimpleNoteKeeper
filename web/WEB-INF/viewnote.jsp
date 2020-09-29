@@ -14,14 +14,12 @@
     <body>
         <h1>Simple Note Keeper</h1>
         <h2>View Note</h2>
-        <form action="get">
-            Title: &nbsp &nbsp &nbsp &nbsp<input type="text" name="title" value="${title}"><br>
-            Contents: <textarea id="content" name="content">${content}</textarea><br>
-            
-            <a href="note?edit">Edit</a>
-        </form>
-        
-        
-        
+
+        <strong>Title: </strong> ${title}<br> <br>
+        <strong> Contents: </strong> ${content}<br>
+        <br>
+        <a href="note?edit">Edit</a>
+
+
     </body>
 </html>
